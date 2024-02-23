@@ -46,7 +46,7 @@ a{
 .btn{
     background-color:red;
     color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: DM Sans sans-serif;
     text-align: center;
     font-size: 17px;
     padding: 20px 50px;
@@ -60,7 +60,7 @@ margin:2rem;
 }
 
 h1{
-    font-family: DM Sans;
+    font-family: DM Sans sans-serif;
     font-size: 80px;
     font-weight: 700;
     line-height: 77px;
@@ -68,7 +68,7 @@ h1{
 } 
 
 .contect{
-    font-family: Mulish;
+    font-family: Mulish sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -138,7 +138,7 @@ left: 698px;
 
 .sub{ width: 556px;
 height: 57px;
-font-family: DM Sans;
+font-family: DM Sans sans-serif;
 font-size: 50px;
 font-weight: 700;
 line-height: 57px;
@@ -149,7 +149,7 @@ padding-top: 5rem;
 }
 
 .contect2{
-font-family: Mulish;
+font-family: Mulish sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -162,7 +162,7 @@ color: #696871;
     width: 89px;
 height: 22px;
 top: 207px;
-font-family: DM Sans;
+font-family: DM Sans sans-serif;
 font-size: 17px;
 font-weight: 700;
 line-height: 22px;
@@ -176,7 +176,7 @@ color: #5454D4;
     padding-left: 2rem;
 }
 .in{
-    font-family: DM Sans;
+    font-family: DM Sans sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 57px;
@@ -185,7 +185,7 @@ color: #5454D4;
     
 }
 .cont{
-    font-family: Mulish;
+    font-family: Mulish sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -193,7 +193,7 @@ color: #5454D4;
     color: #696871;
 }
 .lea{
-    font-family: DM Sans;
+    font-family: DM Sans sans-serif;
     font-size: 17px;
     font-weight: 700;
     line-height: 22px;
@@ -214,7 +214,7 @@ left: 802px;
 
 }
 .icon-cont{
-   font-family: DM Sans;
+   font-family: DM Sans sans-serif;
 font-size: 24px;
 font-weight: 700;
 line-height: 36px;
@@ -224,7 +224,7 @@ color: #19191B;
 
 }
 .p-cont{
-font-family: Mulish;
+font-family: Mulish sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -234,7 +234,7 @@ color: #696871;
 
 }
 .icon-cont2{
-    font-family: DM Sans;
+    font-family: DM Sans sans-serif;
 font-size: 24px;
 font-weight: 700;
 line-height: 36px;
@@ -243,7 +243,7 @@ text-align: center;
 color: #19191B;
 }
 .p-cont1{
-    font-family: Mulish;
+    font-family: Mulish sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -252,7 +252,7 @@ text-align: center;
 color: #696871;
 }
 .icon-cont3{
-    font-family: DM Sans;
+    font-family: DM Sans sans-serif;
 font-size: 24px;
 font-weight: 700;
 line-height: 36px;
@@ -261,7 +261,7 @@ text-align: center;
 color: #19191B;
 }
 .p-cont2{
-    font-family: Mulish;
+    font-family: Mulish sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: 24px;
@@ -302,12 +302,12 @@ padding-left: 3rem;
     left: 155px;
     top: 2658px;
     padding-top: 5rem;
-    background-color:red;
+    /* background-color:red; */
 }
 .get-plan{
     width: 523px;
 height: 140px;
-font-family: DM Sans;
+font-family: DM Sans sans-serif;
 font-size: 60px;
 font-weight: 700;
 line-height: 70px;
@@ -318,8 +318,9 @@ text-align: left;
     width: 346px;
 height: 65px;
 top: 48px;
-left: 765px;
+/* left: 765px; */
 display: flex;
+padding-right: 5px;
 }
 
 .y{
@@ -327,26 +328,227 @@ display: flex;
 height: 55px;
 top: 5px;
 left: 8px;
-border-radius: 10px, 0px, 0px, 10px;
 background-color: #5454D4;
-width: 175px;
-height: 21px;
+width: 140px;
+height: 40px;
 top: 23px;
-border-radius: 10PX;
+border-radius: 10PX 0px 0px 10px;
 justify-content: center;
+ padding-left: 4rem; 
+color: white;
+padding: 10px;
+text-align: center;
 
 }
 .m{
-    width: 175px;
-height: 21px;
+    width: 140px;
+height: 40px;
 top: 23px;
 left: 171px;
-font-family: DM Sans;
+font-family: DM Sans sans-serif;
 font-size: 16px;
 font-weight: 700;
 line-height: 21px;
 letter-spacing: -0.5002105832099915px;
 text-align: center;
 background-color:hsl(240, 18%, 87%);
-border-radius: 10PX;
+border-radius: 0px  10px 10px 0px;
+padding: 10px;
 }
+.card-navigation1{
+    /* background-color: yellowgreen; */
+    width: 330px;
+   height: 441px;
+   padding-top: rem;
+   background-color: #F8F8F8;
+   border-radius: 10px;
+   
+}
+.srt{
+    font-family: DM Sans sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.5627369284629822px;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+h2{
+    font-family: DM Sans sans-serif;
+font-size: 60px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: -1.034482717514038px;
+text-align: center;
+
+}
+.host{
+    font-family: Mulish sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: -0.5314737558364868px;
+text-align: center;
+
+}
+.get-button{
+    font-family: DM Sans sans-serif;
+font-size: 17px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: -0.5314737558364868px;
+text-align: center;
+color:#5454D4;
+padding: 1rem 1rem;
+border-radius: 10px;
+background-color: #FFFFFF;
+ margin: 2rem 2rem;
+}
+
+.dola-nav {
+    display: flex;
+    /* background-color: yellow; */
+    align-items: center;
+    margin-left: 5.5rem;
+    line-height: 10px;
+    color: #FFFFFF;
+    
+
+}
+.dola1{
+  
+font-family: DM Sans sans-serif;
+font-size: 60px;
+font-weight: 700;
+/* line-height: 56px; */
+letter-spacing: -1.034482717514038px;
+
+
+}
+.dola2{
+   font-family: DM Sans sans-serif;
+font-size: 28px;
+font-weight: 700;
+/* line-height: 56px; */
+letter-spacing: -1.034482717514038px;
+text-align: center; 
+}
+ .premium-nav{
+    background-color: #FF7143;
+    display: flex;
+    width: 376px;
+height: 473px;
+border-radius: 10px;
+ }
+.prem{
+    font-family: DM Sans sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 15px;
+letter-spacing: -0.5627369284629822px;
+text-align: center;
+margin-left: 5rem;
+color: #FFFFFFB2;
+padding-top: 2rem;
+padding-right: 3rem;
+
+}
+.prm-sup{
+    font-family: Mulish sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 50px;
+letter-spacing: -0.5314737558364868px;
+text-align: center;
+margin-left: 3rem;
+color: #FFFFFF;
+
+}
+.gt-start{
+    font-family: DM Sans sans-serif;
+font-size: 17px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: -0.5314737558364868px;
+text-align: center;
+margin-left: 1.9rem;
+margin-right: 1rem;
+color: #FFFFFF;
+background: #9F3919;
+
+    padding: 1rem 7rem ;
+    border-radius: 10px;
+}
+.enterprise-nav{
+    background-color:#F8F8F8 ;
+    width: 330px;
+height: 441px;
+border-radius: 10px;
+ padding-top: 1rem; 
+
+}
+.dol-nav1{
+font-family: DM Sans sans-serif;
+font-size: 60px;
+font-weight: 700;
+/* line-height: 56px; */
+letter-spacing: -1.034482717514038px;
+text-align: center;
+
+}
+.dol-nav2{  
+     font-family: DM Sans sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    /* line-height: 56px; */
+    letter-spacing: -1.034482717514038px;
+    text-align: center; 
+}
+.dol-nav{
+    /* background-color: #5454D4; */
+    display: flex;
+align-items: center;
+justify-content: center;
+line-height: 2px;
+margin-top: 1rem;
+
+}
+.ent-nav{
+    font-family: DM Sans sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: -0.5627369284629822px;
+text-align: center;
+padding-top: 1.5rem;
+}
+.web{
+    font-family: Mulish sans-serif;
+font-size: 17px;
+font-weight: 400;
+line-height: 40px;
+letter-spacing: -0.5314737558364868px;
+text-align: center;
+
+}
+.gt2-button{
+    font-family: DM Sans sans-serif;
+font-size: 17px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: -0.5314737558364868px;
+text-align: center;
+color:#5454D4;
+padding: 1rem 1rem;
+border-radius: 10px;
+background-color: #FFFFFF;
+ margin: 2rem 2rem;
+
+}
+.card-sect{
+    display:flex ;
+    padding-top: 3rem;
+
+}
+
